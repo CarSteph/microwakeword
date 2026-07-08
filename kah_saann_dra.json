@@ -3,13 +3,13 @@
   "wake_word": "kah_saann_dra",
   "author": "Custom",
   "version": 2,
-  "model": "kah_saann_dra.tflite",
+  "model": "https://raw.githubusercontent.com/CarSteph/microwakeword/main/kah_saann_dra.tflite",
   "trained_languages": ["fr"],
+  "minimum_esphome_version": "2024.7.0",
   "micro": {
-    "probability_cutoff": 0.5,
-    "sliding_window_size": 10,
-    "feature_step_size": 20,
-    "tensor_arena_size": 150000,
-    "minimum_esphome_version": "2024.7.0"
+    "probability_cutoff": 0.50,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 80000
   }
 }
