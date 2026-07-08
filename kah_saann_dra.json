@@ -3,7 +3,7 @@
   "wake_word": "kah_saann_dra",
   "author": "Custom",
   "version": 2,
-  "model": "kah_saann_dra.tflite",
+  "model": "https://raw.githubusercontent.com/carsteph/microwakeword/main/kah_saann_dra.tflite",
   "trained_languages": ["fr"],
   "micro": {
     "probability_cutoff": 0.97,
