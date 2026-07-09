@@ -3,7 +3,7 @@
   "wake_word": "kah_saann_dra",
   "author": "Custom",
   "version": 2,
-  "model": "https://raw.githubusercontent.com/CarSteph/microwakeword/main/kah_saann_dra.tflite",
+  "model": "kah_saann_dra.tflite",
   "trained_languages": ["fr"],
   "minimum_esphome_version": "2024.7.0",
   "micro": {
